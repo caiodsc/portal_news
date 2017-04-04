@@ -1,0 +1,104 @@
+{
+  "autores" : {
+    "WCiV9Tfa8QPDI6WEeRl82YHJfsB2" : {
+      "nome" : "Kkkk"
+    },
+    "fSkJFRpcS0ag1KCZ3iGWYEAmcbI2" : {
+      "nome" : "Caio Câmara"
+    }
+  },
+  "messages" : {
+    "-Kgh-QoR4RvUkN9VqDkw" : {
+      "-Kgqq62dJ1c31SZ5xBN3" : {
+        "mensagem" : "Ótimo jogo do Real, o campeonato espanhol anda bem apertado!",
+        "nome" : "Caio Câmara"
+      },
+      "-KgqrMZaENWEzQvv08UY" : {
+        "mensagem" : "Comentário.",
+        "nome" : "Valdeilson"
+      }
+    }
+  },
+  "noticias" : {
+    "-Kgh-QoR4RvUkN9VqDkw" : {
+      "autor" : "Caio Câmara",
+      "description" : "Real Madrid vence Alavés e garante a liderança do Campeonato Espanhol. O Real Madrid venceu o Alavés neste domingo, por 3 a 0, no estádio Santiago Bernabéu, e manteve a liderança do Campeonato Espanhol, agora com 68 pontos. O vice-líder, Barcelona, com 63, também entra em campo neste domingo: enfrentará o Granada, fora de casa, às 15h45m.",
+      "imagem" : "http://s2.glbimg.com/naWpj70uVSLK0GLT76fUbBteVTo=/0x131:3600x2158/640x360/s.glbimg.com/es/ge/f/original/2017/04/02/000_n74f5.jpg",
+      "likes" : {
+        "fSkJFRpcS0ag1KCZ3iGWYEAmcbI2" : true,
+        "faifmRVzJSNJkxyI4C27ayT0hI93" : true,
+        "wmrkl9bapwacXVLXkzVbBcXWkDq1" : true
+      },
+      "title" : "Real Madrid vence Alavés e garante a liderança do Campeonato Espanhol.",
+      "totalDislikes" : 0,
+      "totalLikes" : 3,
+      "visualizacoes" : 41
+    },
+    "-Kgh1c_NZ5bCIb4KntiS" : {
+      "autor" : "Caio Câmara",
+      "description" : "Tragédia: Chuvas devastam Colômbia e deixam ao menos 250 mortos. Chuvas e deslizamentos deixam mais de 250 mortos no sul da Colômbia Governo decretou estado de calamidade pública em Mocoa, no departamento de Putumayo. Mais de 200 pessoas seguem desaparecidas.",
+      "dislikes" : {
+        "fSkJFRpcS0ag1KCZ3iGWYEAmcbI2" : true
+      },
+      "imagem" : "http://www.portaldoholanda.com.br/sites/default/files/imagecache/2016_noticia_topo/mocoa_0.jpg",
+      "title" : "Tragédia: Chuvas devastam Colômbia e deixam ao menos 250 mortos.",
+      "totalDislikes" : 1,
+      "totalLikes" : 0,
+      "visualizacoes" : 11
+    },
+    "-Kgh2ALYUCGpVsLBm9wQ" : {
+      "autor" : "Caio Câmara",
+      "description" : "GDG Devfest Manaus já tem data marcada e ingressos à venda. Palestras  Ivan Scher (Alta Comunicazione, GDG/SP) - Tema: Planejamento colaborativo e visual de projetos com Project Model Canvas;  Diego Souza (C.E.S.A.R/PE)- Tema: Android e IoT: construindo aplicações para nternet das coisas;  João Clineu (ITN/AM) - Tema: Robotium + Cucumber + Gradle misture com SPOON e execute testes em vários dispositivos mobile;  Joselito Jr (GDG/PE) - Tema: Angular 2 e Progressive Web Apps;  Keise e Juliane (SIDIA/AM) - Tema: Testando para VR;  Marcelo Quinta (UFG, GDG/GO) - Tema: Google Home.",
+      "imagem" : "https://devfest.gdg.org.ua/images/social-share.png",
+      "likes" : {
+        "faifmRVzJSNJkxyI4C27ayT0hI93" : true
+      },
+      "title" : "GDG Devfest Manaus já tem data marcada e ingressos à venda.",
+      "totalDislikes" : 0,
+      "totalLikes" : 1,
+      "visualizacoes" : 0
+    },
+    "-Kgh2YqAsZp9pDGlwHMS" : {
+      "autor" : "Caio Câmara",
+      "description" : "Galaxy S8 e Galaxy S8 Plus: o que muda nos novos celulares da Samsung. A principal mudança que os novos Galaxy S8 e Galaxy S8 Plus trouxeram à linha S da Samsung foi a tela grande e alongada, com bordas curvas. Os celulares não vêm com o display tradicional e optam pela \"tela infinita\", antes exclusiva da linha Edge. A novidade agrada, mas, sem a linha Edge, ficou mais difícil saber as diferenças entre os modelos.",
+      "imagem" : "http://s2.glbimg.com/q_nj0jFUjBvzKDM7fS7UB5Ntam0=/695x0/s.glbimg.com/po/tt2/f/original/2017/03/31/principal-diferenca-entre-s8-e-s8-plus-e-o-tamanho-da-tela.jpg",
+      "likes" : {
+        "fSkJFRpcS0ag1KCZ3iGWYEAmcbI2" : true,
+        "faifmRVzJSNJkxyI4C27ayT0hI93" : true
+      },
+      "title" : "Galaxy S8 e Galaxy S8 Plus: o que muda nos novos celulares da Samsung.",
+      "totalDislikes" : 0,
+      "totalLikes" : 2,
+      "visualizacoes" : 1
+    },
+    "-Kgh7pKtnk_9y0xbrf4E" : {
+      "autor" : "Caio Câmara",
+      "description" : "Venezuela rejeita incentivo e considera ato do Mercosul uma 'ingerência'. A Venezuela rejeitou, considerando uma \"ingerência\", que o Mercosul encoraje o governo de Nicolás Maduro a garantir a separação dos poderes. Brasil, Argentina, Paraguai e Uruguai acionaram no sábado (1º) a chamada cláusula democrática contra o país depois que o máximo tribunal assumiu brevemente as funções do Parlamento.",
+      "imagem" : "http://s2.glbimg.com/Zo8RGqgv0dfGnPVbcTZZnLtAEQY=/0x0:2953x1791/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/P/x/5SqqYXS7OpwSWl3ObMvQ/venezuela-politca104.jpg",
+      "likes" : {
+        "fSkJFRpcS0ag1KCZ3iGWYEAmcbI2" : true
+      },
+      "title" : "Venezuela rejeita incentivo e considera ato do Mercosul uma 'ingerência'.",
+      "totalDislikes" : 0,
+      "totalLikes" : 1,
+      "visualizacoes" : 1
+    },
+    "-KgkfEfnWdTrGs0l2msB" : {
+      "autor" : "Caio Câmara",
+      "description" : "Mesmo sem nenhum vencedor na sena, 70 sortudos levaram R$ 38 mil cada pela quina, e 5.412 apostadores conseguiram R$ 706,26 com a quadra.",
+      "imagem" : "https://i0.statig.com.br/bancodeimagens/0i/gl/18/0igl180xakk1mhe4ecm75h2ms.jpg",
+      "title" : "Concurso da Mega-Sena acumula e pode pagar R$ 30 milhões na quarta-feira.",
+      "visualizacoes" : 1
+    }
+  },
+  "noticiasPorAutor" : {
+    "fSkJFRpcS0ag1KCZ3iGWYEAmcbI2" : {
+      "-Kgh-QoR4RvUkN9VqDkw" : true,
+      "-Kgh1c_NZ5bCIb4KntiS" : true,
+      "-Kgh2ALYUCGpVsLBm9wQ" : true,
+      "-Kgh2YqAsZp9pDGlwHMS" : true,
+      "-Kgh7pKtnk_9y0xbrf4E" : true,
+      "-KgkfEfnWdTrGs0l2msB" : true
+    }
+  }
+}
