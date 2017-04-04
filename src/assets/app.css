@@ -1,0 +1,230 @@
+
+
+.md-icon {
+  font-family: 'Material Icons';
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga" 1;
+  font-style: normal;
+  text-transform: none;
+  line-height: 1;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.collapsible-indicator {
+  font-size: 30px;
+  line-height:30px;
+}
+
+
+.collapsible-section {
+  padding: 0 20px 20px 20px;
+}
+
+.collapsed .collapsible-section {
+  display: none;
+}
+
+
+.disable-text-selection {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+
+form label {
+  width: 100px;
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+.field-error-message {
+  text-align: right;
+  padding-right: 68px;
+  font-size: 16px;
+  color: #a10000;
+}
+
+form fieldset {
+  margin-bottom: 20px;
+}
+
+form textarea {
+  width: 170px;
+}
+
+form input[type='radio'] {
+  box-shadow: none;
+  width: 20px;
+  vertical-align: bottom;
+  margin-left: 10px;
+}
+
+form button[type='submit'] {
+  float: right;
+  margin-right: 75px;
+}
+
+.debug {
+  clear: both;
+  font-size: 14px;
+}
+
+.debug h3 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+
+
+button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+
+.top-menu {
+  margin-bottom: 30px;
+}
+
+
+
+
+.ng-dirty.ng-invalid {
+  border: 2px solid #ff2118;
+}
+
+.ng-touched.ng-invalid {
+  border: 1px solid #cccccc !important;
+}
+
+
+form.ng-dirty.ng-invalid {
+  border:none;
+}
+
+form.ng-touched.ng-invalid {
+  border:none !important;
+}
+
+.l-header img {
+  cursor: pointer;
+}
+
+.youtube-logo {
+  max-height: 100px;
+  border-radius: 4px;
+}
+
+
+.home-screen {
+  margin-top: 50px;
+}
+
+ul.top-menu > li > a.menu-active {
+  color: #ee1c1b;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.nav-button {
+  margin-bottom: 20px;
+}
+
+.playlist {
+  float: right;
+}
+
+.main-container .list {
+  display: inline-block;
+  max-width: 500px;
+  vertical-align: top;
+  margin-right: 50px;
+}
+
+
+.nav-fields {
+  margin-bottom: 40px;
+}
+
+
+.chat {
+
+}
+
+img.dashboard-section  {
+  display: block;
+  max-height: 300px;
+  margin: 0 auto 50px auto;
+
+}
+
+.toggle-buttons {
+  margin-bottom: 15px;
+}
+
+.graph-toggle {
+  width: 30px;
+  box-shadow: none;
+  vertical-align: bottom;
+}
+
+
+
+.l-header {
+  height: 58px;
+}
+
+.top-menu {
+  margin-left: 50px;
+}
+
+.top-menu li {
+  box-shadow: none !important;
+}
+
+.l-sample-app {
+  text-align: center;
+}
+
+.tools-bar {
+  text-align: right;
+  margin-top: 30px;
+}
+
+.login-form {
+  width: 350px;
+}
+
+.search-bar {
+  margin-bottom: 30px;
+  width: 300px;
+}
+
+.search-bar2 {
+  width:500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right:50px;
+  height: 40px;
+}
+.search-bar3{
+  width: 300px;
+  height: 30px;
+}
+
+

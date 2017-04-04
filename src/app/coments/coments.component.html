@@ -1,0 +1,15 @@
+<div style="margin-left: 100px;">
+<h4 style="margin-bottom: 20px;">Comentários:</h4>
+<tr *ngFor="let mensagem of mensagens" style="cursor: pointer">
+  <section>
+    <div style="width: 800px; height: 200px;" style="max-width: 800px; max-height: 200px;">
+      <div>
+        <div style="margin-left: 20px; margin-bottom: 20px;">
+          <a style="font-size: 150%;">{{mensagem.nome}} disse:</a>
+          <p style="margin-left: 20px; font-size: 150%;">{{mensagem.mensagem}}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</tr>
+</div>

@@ -1,0 +1,36 @@
+.navbar-nav a.active{
+  background-color: #000000;
+}
+
+
+.navbar-nav li:nth-child(1){
+  margin-left:0px;
+}
+header{
+  height:55px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #242424;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+

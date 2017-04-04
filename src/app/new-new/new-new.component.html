@@ -1,0 +1,14 @@
+      <div class="list" style="margin-bottom: 50px;">
+        <h2 style="margin-left: 50px; margin-bottom: 30px;">Nova notícia:</h2>
+        <div style="margin-bottom: 100px; margin-left: 50px;" class="list">
+
+            <img src="{{url}}" id="noticiaImg" alt="image" class="border-tlr-radius" height="300" width="600" style="margin-bottom: 5px; margin-left: 120px;"/>
+            <form [formGroup]="imgForm" autocomplete="off" novalidate>
+              <fieldset>
+                 <input style="margin-left: 120px;" id="file" name="file" type="file">
+              </fieldset>
+            </form>
+            <app-new-form #form></app-new-form>
+           <button style="margin-left: 100px;" [disabled]="!form.valid" (click)="save(form)">Salvar</button>
+         </div>
+      </div>

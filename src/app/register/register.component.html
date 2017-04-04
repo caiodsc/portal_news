@@ -1,0 +1,34 @@
+<main class="l-main l-sample-app">
+  <div>
+    <div class="main-container">
+      <div class="list" style="margin-bottom: 50px;">
+<div class="list">
+  <form autocomplete="off" novalidate class="login-form" [formGroup]="form">
+    <fieldset>
+      <legend>Register</legend>
+      <div class="form-field">
+        <label>Nome do Editor:</label>
+        <input name="author" formControlName="author">
+      </div>
+      <div class="form-field">
+        <label>Email:</label>
+        <input name="email" formControlName="email">
+      </div>
+      <div class="form-field">
+        <label>Password:</label>
+        <input name="password" formControlName="password" type="password">
+      </div>
+      <div class="form-field">
+        <label>Confirm Password:</label>
+        <input name="confirm" formControlName="confirm" type="password">
+      </div>
+    </fieldset>
+
+    <button (click)="signUp()" [disabled]="!isPasswordMatch()">Create User</button>
+
+  </form>
+</div>
+      </div>
+    </div>
+  </div>
+</main>

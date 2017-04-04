@@ -1,0 +1,13 @@
+<form [formGroup]="form" autocomplete="off" novalidate>
+  <fieldset>
+    <h4 style="margin-left: 100px;">Deixe uma mensagem:</h4>
+    <label style="margin-left: 45px;">Nome:</label>
+    <div class="form-field">
+      <input  style="min-width: 400px; margin-left: 100px;" name="nome" formControlName="nome">
+    </div>
+    <label style="margin-left: 80px;">Mensagem:</label>
+    <div class="form-field">
+      <textarea style="min-width: 800px; min-height: 100px; margin-left: 100px;" name="mensagem" formControlName="mensagem"></textarea>
+    </div>
+  </fieldset>
+</form>

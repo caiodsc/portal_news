@@ -1,0 +1,23 @@
+
+<h1 style="margin-left: 60px; margin-bottom: 20px;">Notícias:</h1>
+<div style="margin-bottom: 100px;">
+<td>
+    <div style="margin-left:70px; margin-right: 50px; width: 650px; max-height: 350px; cursor: pointer;" (click)="navigateToNoticia(noticias[i])">
+      <div *ngIf="noticias!=null">
+        <img style="min-height: 350px; max-height: 350px; width: 650px; margin-top: 10px; margin-left: 5px;" src="{{noticias[i]?.imagem}}" class="w-100">
+      <h5 style="margin-left: 10px;">{{noticias[i].title}}</h5>
+      </div>
+</div>
+</td>
+
+<td>
+  <ul style="margin-bottom: 5px;" class="nav nav-tabs">
+    <li role="presentation" routerLink="home" id="1"  style="margin-right: 0px; cursor:pointer;" (click)="featured()"><a>Em destaque</a></li>
+    <li role="presentation" routerLink="home"  routerLinkActive="active" id="2" style="margin-right: 0px; cursor:pointer;" (click)="recent()"><a>Mais recente</a></li>
+    <li role="presentation" style="cursor:pointer;" routerLink="home" id="3" (click)="popular()"><a>Populares</a></li>
+  </ul>
+  <div>
+    <app-news-list [noticia]="noticias" (noticia)="navigateToNoticia($event)"></app-news-list>
+  </div>
+</td>
+</div>

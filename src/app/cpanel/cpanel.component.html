@@ -1,0 +1,28 @@
+
+<h3 style="margin-left: 70px; margin-top: 50px;">Bem vindo de volta! Para criar uma nova notícia <a routerLink="nova-noticia">clique aqui</a>!</h3>
+
+<h3 style="margin-left: 70px; margin-top: 20px; margin-bottom: 20px;">Suas notícias:</h3>
+<h4 *ngIf="noticias?.length == null" style="margin-left: 70px; margin-top: 20px; color: #ee1c1b">Você ainda não publicou notícias.</h4>
+
+<ul style="margin-left: 150px;" class="list-group">
+  <tr *ngFor="let noticia of noticias" style="cursor: pointer" (click)="navigateToNoticia(noticia)">
+    <section>
+      <div>
+      <div style="width: 800px; height: 130px; margin-bottom: 10px;">
+        <div style="max-height: 100px; max-width: 150px; margin-right: 15px;" class="col-md-4">
+          <img style="min-height:100px; min-width:150px; max-height: 80px; max-width: 120px; margin-top: 10px; margin-left: 8px; margin-bottom: 10px; margin-right: 25px; horiz-align: center" src="{{noticia.imagem}}" class="w-100">
+        </div>
+        <div class="col-md-8 px-3">
+          <div class="card-block px-3">
+            <h4 class="card-title">{{noticia.title}}</h4>
+            <p class="card-text" style="font-size: 50%;">Posted by: {{noticia.autor}}</p>
+            <h5 class="card-text" style="text-overflow: ellipsis; white-space: nowrap; overflow: hidden;">{{noticia.description}}</h5>
+          </div>
+        </div>
+        <button style="margin-top: 10px;" type="button" class="btn btn-danger" (click)="removeNew(noticia)">Delete</button>
+      </div>
+      </div>
+    </section>
+  </tr>
+</ul>
+<div style="margin-bottom: 250px;"></div>

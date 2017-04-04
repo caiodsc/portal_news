@@ -1,0 +1,20 @@
+<div *ngIf="noticia?.title !=null">
+<h3 style="margin-left: 100px; margin-top: 30px;">{{noticia.title}}</h3>
+<p style="margin-left: 100px; margin-top: 5px; font-size: 90%;">Posted by: {{noticia.autor}}</p>
+<img style="margin-left: 100px; width: 800px; height: 400px; margin-top: 0px; margin-bottom: 20px;" src="{{noticia.imagem}}">
+<p style="margin-left: 100px; max-width: 800px;">{{noticia.description}}</p>
+  <div style="margin-left: 100px; margin-top: 20px;">
+  <button type="button" class="btn btn btn-primary" (click)="increase(noticia)">
+    <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Like ({{noticia.totalLikes}})
+  </button>
+  <button type="button" class="btn btn-danger" (click)="decrease(noticia)">
+    <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> Dislike ({{noticia.totalDislikes}})
+  </button>
+  </div>
+  <p style="margin-left: 100px; margin-top: 20px;">Essa página possui {{noticia.visualizacoes}} vizualizações.</p>
+</div>
+<div>
+<app-messages-form #form></app-messages-form>
+<button style="margin-left: 842px; min-height: 30px; min-width: 40px;" [disabled]="!form.valid" (click)="save(form)">Enviar</button>
+</div>
+<app-coments [noticiaId]="noticia?.$key"></app-coments>

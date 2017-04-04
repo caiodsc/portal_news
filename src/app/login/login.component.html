@@ -1,0 +1,22 @@
+<main class="l-main l-sample-app">
+  <div>
+    <div class="main-container">
+        <div class="list" style="margin-bottom: 50px;">
+          <form autocomplete="off" novalidate class="login-form" [formGroup]="form">
+            <fieldset>
+              <legend>Login</legend>
+              <div class="form-field">
+                <label>Email:</label>
+                <input name="email" formControlName="email">
+              </div>
+              <div class="form-field">
+                <label>Password:</label>
+                <input name="password" formControlName="password" type="password">
+              </div>
+            </fieldset>
+            <button (click)="login()">Login</button>
+          </form>
+      </div>
+    </div>
+  </div>
+</main>

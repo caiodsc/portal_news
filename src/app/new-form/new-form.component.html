@@ -1,0 +1,13 @@
+<form [formGroup]="form" autocomplete="off" novalidate>
+  <fieldset>
+    <legend>Notícia:</legend>
+    <div class="form-field">
+      <label>Título</label>
+      <input style="min-width: 300px;" name="title" formControlName="title" maxlength="70">
+    </div>
+    <div class="form-field">
+      <label>Descrição:</label>
+      <textarea style="min-width: 600px; min-height: 250px;" name="description" formControlName="description"></textarea>
+    </div>
+  </fieldset>
+</form>
